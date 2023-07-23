@@ -1,11 +1,11 @@
-<h1>Failed RDP to IP Geolocation Information</h1>
+<h1>Use SIEM to Display RDP On a World Map Through Geolocation </h1>
 
 
  ### [YouTube Demonstration (@16:20)](https://youtu.be/RoZeVbbZ0o0?t=980)
 
 
 <h2>Description</h2>
-<b>The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
+<b>The Powershell script in this log analytics (repository) is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
 </b>
 <br />
 <br />
@@ -25,6 +25,7 @@ look up the attackers Geolocation information and plot it on an Azure Sentinel M
 <h2>Utilities Used</h2>
 
 - <b>ipgeolocation.io:</b> IP Address to Geolocation API
+- <b>Microsoft Azure</b> Host Virtual Machine, SIEM, and Log Analytics
 
 <h2>Attacks from China coming in; Custom logs being output with geodata</h2>
 
