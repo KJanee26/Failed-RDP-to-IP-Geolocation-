@@ -2,7 +2,7 @@
 
 
  ### [YouTube Demonstration (@16:20)](https://youtu.be/RoZeVbbZ0o0?t=980)
-
+ ### [Description and Purpose of Each Tool Used In SIEM](https://docs.google.com/document/d/1ESZCaDqtN6LnpDrenSFVkUJL3pnQccEu/edit?usp=sharing&ouid=100831930598359454886&rtpof=true&sd=true) 
 
 <h2>Description</h2>
 <b>The Powershell script in this log analytics (repository) is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
